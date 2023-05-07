@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.0 FATAL_ERROR)
 
 project(demod)
 
-set(CMAKE_C_FLAGS_RELEASE "-O3 -march=nehalem -mtune=nehalem")
+set(CMAKE_C_FLAGS_RELEASE "-Ofast -march=nehalem -mtune=nehalem")
 
 
 add_executable(demod
